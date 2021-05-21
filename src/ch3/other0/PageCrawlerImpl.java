@@ -4,9 +4,9 @@ package ch3.other0;
  * @author Zeyuan Wang[wangzeyuan@nowcoder.com]
  * @date 2021/05/19
  */
-public class PageCrawlerImpl {
+public class PageCrawlerImpl implements PageCrawler {
 
-  public static WikiPage getInheritedPage(String suiteSetupName, WikiPage wikiPage) {
+  public WikiPage getInheritedPage(String suiteSetupName, WikiPage wikiPage) {
     return suiteSetupName != null && wikiPage != null ? new WikiPage() : null;
   }
 

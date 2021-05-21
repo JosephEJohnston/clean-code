@@ -13,7 +13,7 @@ import ch3.other0.WikiPagePath;
  */
 public class Main0 {
 
-  public static String testableHtml(
+  /*public String testableHtml(
       PageData pageData,
       boolean includeSuiteSetup
   ) throws Exception {
@@ -76,7 +76,7 @@ public class Main0 {
     }
     pageData.setContent(builder.toString());
     return pageData.getHtml();
-  }
+  }*/
 
   // 重构后
   public static String renderPageWithSetupsAndTeardowns (
